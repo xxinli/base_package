@@ -1,0 +1,23 @@
+{
+  "exclude": [
+    "node_modules",
+    "dist",
+    "jestSetup.ts"
+  ],
+  "compilerOptions": {
+    "declaration": true,
+    "allowSyntheticDefaultImports": true,
+    "target": "ES2019",
+    "lib": [
+      "ES2019",
+      "DOM"
+    ],
+    "module": "commonjs",
+    "moduleResolution": "Node",
+    "sourceMap": true,
+    "strict": true,
+    "rootDir": "src",
+    "outDir": "dist",
+    "esModuleInterop": true
+  }
+}
